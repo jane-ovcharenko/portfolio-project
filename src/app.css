@@ -1,11 +1,49 @@
+:root {
+  --primary-color: #ede2dc;
+  --heading-color: #ab3b61;
+  --secondary-color: #123d6a;
+  --button-color: #edc8b8;
+  --button-hover-color: #bab2b5;
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Poppins", sans-serif;
+}
+
 h1 {
-  font-family: "Playfair Display", serif;
-  font-weight: 800;
+  color: var(--heading-color);
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+  font-size: 84px;
 }
-p {
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
+
+.hero h2 {
+  color: var(--secondary-color);
+  font-family: var(--heading-font-family);
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 2;
 }
-.container {
-  background-color: yellow;
+
+.hero p {
+  color: var(--secondary-color);
+  font-size: 24px;
+  font-family: var(--default-font-family);
+}
+.btn-branding {
+  font-family: var(--default-font-family);
+  font-size: 24px;
+  color: var(--heading-color);
+  background-color: var(--button-color);
+  padding: 15px 20px;
+  border: 1px solid var(--heading-color);
+}
+
+.btn-branding:hover {
+  background-color: var(--button-hover-color);
+  color: var(--heading-color);
+  border: 1px solid var(--heading-color);
+}
+.hero {
+  background-color: var(--primary-color);
+  text-align: center;
+  padding: 160px 150px;
 }
