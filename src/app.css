@@ -59,7 +59,6 @@ img {
 }
 
 .hero {
-  background-color: var(--primary-color);
   text-align: center;
   padding: 160px 150px;
 }
@@ -86,4 +85,28 @@ img {
 
 .project-description {
   padding: 10px 30px;
+}
+
+@media (max-width: 640px) {
+  h1 {
+    font-size: 48px;
+  }
+
+  .hero {
+    padding: 30px 40px;
+  }
+
+  .navigation-links {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .container {
+    text-align: center;
+  }
+
+  .row {
+    margin-bottom: 40px;
+  }
 }
