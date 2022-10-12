@@ -63,11 +63,25 @@ img {
   padding: 160px 150px;
 }
 
+.about-me-heading,
 .my-projects {
   margin: 60px auto;
   font-size: 42px;
   text-align: center;
   color: var(--heading-color);
+}
+
+.about-me-container {
+  padding: 0 150px;
+}
+
+.about-me-content {
+  padding: 60px 40px;
+}
+
+.about-me-paragraph {
+  font-size: 18px;
+  color: var(--secondary-color);
 }
 
 .site {
@@ -102,11 +116,24 @@ img {
     gap: 40px;
   }
 
-  .container {
+  .container,
+  .about-me-content {
     text-align: center;
   }
 
   .row {
     margin-bottom: 40px;
+  }
+
+  .about-me-heading {
+    font-size: 36px;
+    margin: 30px;
+  }
+
+  .about-me-container {
+    padding: 0 20px;
+  }
+  .about-me-content {
+    padding: 20px 10px;
   }
 }
