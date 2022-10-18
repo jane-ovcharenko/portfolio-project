@@ -103,6 +103,11 @@ img {
   padding: 10px 30px;
 }
 
+.email-link {
+  color: var(--heading-color);
+  text-decoration: none;
+}
+
 nav ul {
   padding: 10px 150px;
   font-size: 20px;
