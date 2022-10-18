@@ -28,6 +28,11 @@ h1 {
   font-size: 84px;
 }
 
+h3 {
+  font-size: 42px;
+  color: var(--heading-color);
+}
+
 img {
   border-radius: 10px;
 }
@@ -106,6 +111,37 @@ img {
 .email-link {
   color: var(--heading-color);
   text-decoration: none;
+  font-size: 24px;
+}
+
+footer {
+  margin: 60px 0;
+}
+
+footer .contact-box {
+  padding: 30px 120px;
+  background-color: #f9b99d;
+  border-radius: 10px;
+}
+
+footer .contact-box p {
+  margin: 0;
+  color: var(--secondary-color);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--heading-color);
+  background-color: var(--button-color);
+  padding: 10px 16px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: var(--button-color);
+  background-color: var(--heading-color);
 }
 
 nav ul {
@@ -178,5 +214,9 @@ nav li.active a {
   nav ul {
     padding: 0;
     margin: 0 auto;
+  }
+
+  footer .contact-box {
+    padding: 30px;
   }
 }
