@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Front-end Developer - Jane Ovcharenko</title>
+    <meta
+      name="description"
+      content="Learn about Jane. Jane Ovcharenko is a front-end developer based in Europe, Poland."
+    />
+    <title>Learn about Jane - Jane Ovcharenko</title>
     <!-- CSS only -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
@@ -36,10 +40,12 @@
     <div class="container">
       <nav class="d-flex justify-content-between fixed-top bg-white">
         <ul>
-          <li><a href="/">Home</a></li>
-          <li class="active"><a href="/about.html">About</a></li>
-          <li><a href="/work.html">Work</a></li>
-          <li><a href="/contact.html">Contact</a></li>
+          <li><a href="/" title="Homepage">Home</a></li>
+          <li class="active">
+            <a href="/about.html" title="About Jane">About</a>
+          </li>
+          <li><a href="/work.html" title="Jane's projects">Work</a></li>
+          <li><a href="/contact.html" title="Contact Jane">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -68,12 +74,57 @@
                 world of coding but you already can see the results of some of
                 the projects I've been working on.
               </p>
-              <a href="/work.html" class="btn btn-branding mt-3"
+              <a
+                href="/work.html"
+                class="btn btn-branding mt-3"
+                title="View Jane's projects"
                 >See my projects</a
               >
             </div>
           </div>
         </div>
+        <footer>
+          <div
+            class="contact-box justify-content-between mb-5 d-none d-md-flex"
+          >
+            <div>
+              <h3 class="mb-3">Work Inquiry</h3>
+              <p>Let's work together</p>
+            </div>
+            <div>
+              <a href="" class="btn btn-branding mt-3" title="Contact Jane"
+                >Contact me</a
+              >
+            </div>
+          </div>
+          <div class="d-flex justify-content-center mb-5">
+            <a
+              href="mailto:yevheniia.ovcharenko@gmail.com"
+              class="email-link"
+              title="email Jane"
+              >yevheniia.ovcharenko@gmail.com</a
+            >
+          </div>
+          <div class="social-links d-flex justify-content-center mb-5">
+            <a
+              href="https://github.com/jane-ovcharenko/"
+              target="_blank"
+              title="link to Jane's github"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+          </div>
+          <p class="mb-5 text-center">
+            This website was coded by Jane Ovcharenko, and is
+            <a
+              href="https://github.com/jane-ovcharenko/portfolio-project"
+              title="link to Jane's github"
+              target="_blank"
+              >open-sourced</a
+            >
+          </p>
+        </footer>
       </div>
     </div>
   </body>
